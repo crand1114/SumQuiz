@@ -7,39 +7,6 @@
 <body>
 <p>Click to start adding Quiz Grades</p>
 <button onclick="quizGrade()">Start</button>
-<script >
-function quizGrade() {
-    var numStudents=0;
-    var sumGrade=0;
-    var aveGrade=0;
-    var grade;
-    var minGrade = 0;
-    var maxGrade = 10;
-    var studentName;
-    var studentList = "<table border=1>";
-    while (studentName = prompt("Enter Student Name:")) {
-
-        grade = prompt("Enter " + studentName + "'s" + "quiz grade");
-        //student[studentName]=grade;
-        while (isNaN(grade) || !(grade > minGrade) || !(grade < maxGrade)) {
-            grade = prompt("Enter " + studentName + "'s" + "quiz grade");
-
-        }
-        numStudents+=1;
-        sumGrade+=parseInt(grade);
-        aveGrade=parseInt(sumGrade)/numStudents;
-        if (grade == parseInt(grade)) {
-            studentList = studentList + ("<tr><td>" + studentName + "</td><td>" + grade + "</td></tr>");
-        } else {
-            studentList = studentList + ("<tr><td>" + studentName + "</td><td>" + parseInt(grade).toFixed(1) + "</td></tr>");
-        }
-    }
-    studentList=studentList+"</table>";
-    document.writeln(studentList);
-    document.write(numStudents+ " students received a total score of "+ sumGrade+"<br>")
-    document.write("The average score is "+ aveGrade.toFixed(1));
-
-}
-</script>
+<script src="problem1.js" ></script>
 </body>
 </html>
