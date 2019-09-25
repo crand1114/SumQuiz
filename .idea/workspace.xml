@@ -11,6 +11,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -20,8 +21,16 @@
   </component>
   <component name="ProjectId" id="1RG4LYHU7H0RHKORa3Q4Rbl7Rwa" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Charl\Documents\GitHub\SumQuiz\Assignment3" />
+      <recent name="C:\Users\Charl\Documents\GitHub\SumQuiz\Assignment3\problem2" />
+      <recent name="C:\Users\Charl\Documents\GitHub\SumQuiz\problem1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569280043187</updated>
       <workItem from="1569280044337" duration="8340000" />
+      <workItem from="1569366407872" duration="7005000" />
     </task>
     <servers />
   </component>
@@ -57,7 +67,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
